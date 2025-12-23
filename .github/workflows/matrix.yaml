@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         python: [3.9, 3.12, 3.11]
-        person: ["Noa", "Michael]
+        person: ["Noa", "Michael"]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
